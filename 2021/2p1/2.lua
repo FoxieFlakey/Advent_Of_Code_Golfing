@@ -1,4 +1,4 @@
---Fox: 128 chars
+--Fox: 128 chars Lua
 a,b=0,0 for c in io.lines()do d=c:sub(1,1)e=c:sub(-1)if d=="f" then a=a+e elseif d=="u" then b=b-e else b=b+e end end print(a*b)
 
 if true then
